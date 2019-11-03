@@ -3,7 +3,7 @@ import AddEditPerson from "./AddEditPerson";
 import AllPersons from "./AllPersons";
 
 
-function App({apiFacade}) {
+function AppFri({apiFacade}) {
   const emptyPerson = { id: "", age: "", name: "", email: "", gender: "" };
   const [personToAddEdit, setPersonToAddEdit] = useState(emptyPerson);
   const [persons, setPersons] = useState([]);
@@ -51,4 +51,4 @@ function App({apiFacade}) {
     </div>
   );
 }
-export default App;
+export default AppFri;
