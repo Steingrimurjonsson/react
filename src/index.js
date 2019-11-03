@@ -17,6 +17,11 @@ import ReservationForm from './FormDemoMultiple';
 import AppTD from './AppTD';
 import AppPerson from './AppPerson';
 
+
+import AppFri from "./components/AppFri"
+import apiFacade from "./apiFacade";
+
+
 function Clock(props) {
     return (
       <div>
@@ -50,3 +55,4 @@ ReactDOM.render(<NameForm />, document.getElementById('root9'));
 ReactDOM.render(<ReservationForm />, document.getElementById('root10'));
 ReactDOM.render(<AppTD />, document.getElementById('root11'));
 ReactDOM.render(<AppPerson />, document.getElementById('root12'));
+ReactDOM.render(<AppFri apiFacade={apiFacade}/>, document.getElementById('root13'));
